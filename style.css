@@ -1,0 +1,39 @@
+/* ~~ RESET ~~ */
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+a img { 
+	border: none;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display: block;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+/* ~~ RESET the end ~~ */
+
+body {
+	background: #fff;
+}
+
+#wrapper {
+	position: relative;
+	width: 700px;
+	height: 700px;
+	margin: 50px auto;
+	border: 1px solid #f0f0f0;
+	background-image: url('grid_bg.svg');
+}
+
